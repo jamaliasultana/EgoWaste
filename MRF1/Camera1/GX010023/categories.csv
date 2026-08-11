@@ -1,0 +1,21 @@
+category_id,category_name,material_id,material_class
+0,Black Plastic Containers,2,Plastics
+1,Containers #1/Clamshells,2,Plastics
+2,Containers #2 Colored,2,Plastics
+3,Containers #2 Natural,2,Plastics
+4,Containers #3-7 (Not #5),2,Plastics
+5,Containers #5/PP,2,Plastics
+6,Deposit #1 Bottles,2,Plastics
+7,Deposit Aluminum Containers,2,Plastics
+8,Deposit Glass Containers,0,Glass
+9,Glass Fragments,0,Glass
+10,Non-Deposit,2,Plastics
+11,Other #1 Bottles,2,Plastics
+12,Other Glass,0,Glass
+13,Other Glass Containers,0,Glass
+14,Other Organics,1,Other Organics
+15,Other Plastic Film,2,Plastics
+16,Other Plastics,2,Plastics
+17,Other Rigid/Bulky Plastics,2,Plastics
+18,Other Unnumbered Containers & Fragments,2,Plastics
+19,Rubber & Leather,3,Rubber & Leather
