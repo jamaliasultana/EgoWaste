@@ -1,0 +1,9 @@
+recording_id,site,session,camera_id,gx_id,review_complete,split,annotations,frames
+GX010020_landfill,Landfill,20250602,1,GX010020,True,unassigned,1078,987
+GX010021_landfill,Landfill,20250602,1,GX010021,True,unassigned,445,399
+GX010022_landfill,Landfill,20250602,1,GX010022,True,unassigned,763,698
+GX020020_landfill,Landfill,20250602,1,GX020020,True,unassigned,354,337
+GX020021_landfill,Landfill,20250602,1,GX020021,True,unassigned,658,625
+GX010023_MRF,MRF,20250604,1,GX010023,True,unassigned,967,915
+GX010024_MRF,MRF,20250604,1,GX010024,True,unassigned,565,535
+GX010025_MRF,MRF,20250604,1,GX010025,True,unassigned,501,422

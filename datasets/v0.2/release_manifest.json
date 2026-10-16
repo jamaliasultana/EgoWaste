@@ -1,0 +1,20 @@
+{
+  "release_id": "v0.2_eight_gx_2026-10-16",
+  "exporter_version": "1.0.0",
+  "scope": "validated_subset_with_quarantine",
+  "created_at_utc": "2026-10-16T18:28:16.886231+00:00",
+  "quarantine_enabled": true,
+  "quarantined_issue_count": 4,
+  "paper_benchmark_reproduction": false,
+  "license": "not_selected; local staging only",
+  "split_policy": "Unassigned unless explicitly supplied; no inferred paper split",
+  "taxonomy_sha256": "44def4b8b20b2143b1ed589242f2587d64c183b3996a605e085cba9e5a5ea3ba",
+  "advisories": [
+    "Cumulative local staging of eight recordings; includes the original four and four additions. Not the complete paper benchmark.",
+    "Frozen taxonomy contains 57 fine classes and 15 materials; the manuscript states 56 fine classes. Reconcile before publication.",
+    "Fine category IDs are newly frozen export IDs, not claimed to be original paper model IDs.",
+    "All recordings have split=unassigned; original benchmark split must be supplied before training/evaluation comparisons.",
+    "Automatic validation checks consistency and completeness of selected files, not visual correctness of every annotation.",
+    "v0.2 is a cumulative replacement for v0.1. Do not combine both versions for training because the original four recordings occur in both."
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "issue_id": "GX010021_landfill:duplicate_identity_conflict:152-153",
+    "code": "duplicate_identity_conflict",
+    "recording_id": "GX010021_landfill",
+    "source_rows": [
+      152,
+      153
+    ],
+    "reason": "Conflicting fine classes for the same frame/object ID"
+  },
+  {
+    "issue_id": "GX010022_landfill:duplicate_identity_conflict:335-336",
+    "code": "duplicate_identity_conflict",
+    "recording_id": "GX010022_landfill",
+    "source_rows": [
+      335,
+      336
+    ],
+    "reason": "Conflicting fine classes for the same frame/object ID"
+  },
+  {
+    "issue_id": "GX010022_landfill:duplicate_identity_conflict:384-385",
+    "code": "duplicate_identity_conflict",
+    "recording_id": "GX010022_landfill",
+    "source_rows": [
+      384,
+      385
+    ],
+    "reason": "Conflicting fine classes for the same frame/object ID"
+  },
+  {
+    "issue_id": "GX010023_MRF:unfinished_manual_object:1079",
+    "code": "unfinished_manual_object",
+    "recording_id": "GX010023_MRF",
+    "source_rows": [
+      1079
+    ],
+    "reason": "Manual object inherits its predecessor's mask/label; explicit saved mask and class required"
+  }
+]
