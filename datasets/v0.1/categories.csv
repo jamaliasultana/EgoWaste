@@ -1,0 +1,58 @@
+category_id,category_name,material_id,material_class,material_slug
+0,Aluminum Foil,0,Aluminum,aluminum
+1,Black Plastic Containers,10,Plastics,plastics
+2,Boxboard,9,Paper,paper
+3,Ceramics,6,Other Inorganics,other_inorganics
+4,Clothing,12,Textiles,textiles
+5,Compostable Paper,9,Paper,paper
+6,Containers #1/Clamshells,10,Plastics,plastics
+7,Containers #2 Colored,10,Plastics,plastics
+8,Containers #2 Natural,10,Plastics,plastics
+9,Containers #3-7 (Not #5),10,Plastics,plastics
+10,Containers #5/PP,10,Plastics,plastics
+11,Deposit #1 Bottles,10,Plastics,plastics
+12,Deposit Aluminum Containers,0,Aluminum,aluminum
+13,Deposit Glass Containers,4,Glass,glass
+14,Do-It-Yourself Construction & Demolition Debris,6,Other Inorganics,other_inorganics
+15,Electronic-Containing Wastes,1,Electronic-Containing Wastes,electronic_containing_wastes
+16,Ferrous Containers/Ferris container,2,Ferrous-Bimetal,ferrous_bimetal
+17,Food,3,Food,food
+18,Gable Tops,9,Paper,paper
+19,Garbage Bags,10,Plastics,plastics
+20,Glass Fragments,4,Glass,glass
+21,Hardcover Books,9,Paper,paper
+22,Household Hazardous Waste,5,Household Hazardous Waste,household_hazardous_waste
+23,Magazine/Glossy,9,Paper,paper
+24,Mail,9,Paper,paper
+25,Non-Deposit,10,Plastics,plastics
+26,Old Corrugated Cardboard,9,Paper,paper
+27,Old Newspaper,9,Paper,paper
+28,Other #1 Bottles,10,Plastics,plastics
+29,Other Aluminum,0,Aluminum,aluminum
+30,Other Aluminum Containers,0,Aluminum,aluminum
+31,Other Ferrous,2,Ferrous-Bimetal,ferrous_bimetal
+32,Other Glass,4,Glass,glass
+33,Other Glass Containers,4,Glass,glass
+34,Other Inorganics,6,Other Inorganics,other_inorganics
+35,Other Non-Ferrous,8,Other non-ferrous metal,other_non_ferrous_metal
+36,Other Organics,7,Other Organics,other_organics
+37,Other Paper,9,Paper,paper
+38,Other Plastic Film,10,Plastics,plastics
+39,Other Plastics,10,Plastics,plastics
+40,Other Recyclable Paper,9,Paper,paper
+41,Other Rigid/Bulky Plastics,10,Plastics,plastics
+42,Other Rubber & Leather,11,Rubber & Leather,rubber_leather
+43,Other Textiles,12,Textiles,textiles
+44,Other Unnumbered Containers & Fragments,10,Plastics,plastics
+45,Other Wood,13,Wood,wood
+46,Pizza Boxes,9,Paper,paper
+47,Plastic,10,Plastics,plastics
+48,Printed/Office paper,9,Paper,paper
+49,Retail Plastic Bags,10,Plastics,plastics
+50,Rigid Plastic,10,Plastics,plastics
+51,Rubber & Leather,11,Rubber & Leather,rubber_leather
+52,Shredded Paper,9,Paper,paper
+53,Softcover/Paperback Books,9,Paper,paper
+54,Textiles,12,Textiles,textiles
+55,Wood,13,Wood,wood
+56,Yard Waste,14,Yard Waste,yard_waste

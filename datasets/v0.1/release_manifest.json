@@ -1,0 +1,19 @@
+{
+  "release_id": "v0.1_four_gx_2026-10-15",
+  "exporter_version": "1.0.0",
+  "scope": "validated_subset_with_quarantine",
+  "created_at_utc": "2026-10-15T20:42:07.820609+00:00",
+  "quarantine_enabled": true,
+  "quarantined_issue_count": 4,
+  "paper_benchmark_reproduction": false,
+  "license": "not_selected; local staging only",
+  "split_policy": "Unassigned unless explicitly supplied; no inferred paper split",
+  "taxonomy_sha256": "44def4b8b20b2143b1ed589242f2587d64c183b3996a605e085cba9e5a5ea3ba",
+  "advisories": [
+    "Local staging of four recordings, not the complete paper benchmark.",
+    "Frozen taxonomy contains 57 fine classes and 15 materials; the manuscript states 56 fine classes. Reconcile before publication.",
+    "Fine category IDs are newly frozen export IDs, not claimed to be original paper model IDs.",
+    "All recordings have split=unassigned; original benchmark split must be supplied before training/evaluation comparisons.",
+    "Automatic validation checks consistency and completeness of selected files, not visual correctness of every annotation."
+  ]
+}
