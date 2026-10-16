@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scope": "export_integrity",
+  "annotations": 5331,
+  "unique_rgb_frames": 4918,
+  "mask_sources": {
+    "accepted_original": 4597,
+    "saved_correction": 734
+  },
+  "files_checked": 20930,
+  "errors": []
+}
