@@ -1,0 +1,90 @@
+{
+  "scope": "Table 4 and Table 5 baseline source code and transitive local dependencies",
+  "changes": "Renamed files, updated references/imports, and replaced machine-specific documentation paths. Training and evaluation logic, output names, and defaults retained.",
+  "files": [
+    {
+      "source_file": "train_active_object_cls.py",
+      "published_file": "train_classification.py",
+      "source_sha256": "c2c21508747c0a1a0fa3f3464e6d0a5dd15a769ac4ee05d30955c95db21695b1",
+      "published_sha256": "300d248c6156eb80e539716d22508313dd320c1a34322aff11174038b1034e7d"
+    },
+    {
+      "source_file": "train_active_detection.py",
+      "published_file": "train_detection.py",
+      "source_sha256": "ab4237cfcd208d70da498d1a9e8920f91361137a7bdc40137c1cc75b9ad4fc84",
+      "published_sha256": "0976097667c8ca3a336e6668ad0b13eecaea40c7cdda23be235278fb004b661d"
+    },
+    {
+      "source_file": "train_active_segmentation.py",
+      "published_file": "train_segmentation.py",
+      "source_sha256": "463ab6df5a15e9978114c6bcf1b982f0c450bf93894de12f5cff62fd12df6670",
+      "published_sha256": "366c940fbdf4e432741400353a15eb601f2110db810ce20787b05e1e8f56b7e0"
+    },
+    {
+      "source_file": "d2_train_ego.py",
+      "published_file": "train_detectron2.py",
+      "source_sha256": "eacebdfae4ba15b73f58fdaf318558f7ae5aa2025930ff8d652687e63a2fb716",
+      "published_sha256": "aad5573ce5732b10a1a3306f4cdfa00d306d86826433d420d9f2069d4f7506d6"
+    },
+    {
+      "source_file": "build_active_object_dataset.py",
+      "published_file": "prepare_classification_data.py",
+      "source_sha256": "b082d4266b120d5b10412a0c18f85a448fe71fb98628cb62ddf5f0e6f5792bed",
+      "published_sha256": "73715c74d6469edb416a45e6ca42c147fe8dfa34c0138990be56eafdb8bedece"
+    },
+    {
+      "source_file": "build_active_detection_dataset.py",
+      "published_file": "prepare_detection_data.py",
+      "source_sha256": "f4984a064f407ebfd9da8bed0d66698022db972bea39ff62c6654542319d5245",
+      "published_sha256": "101653f921ec5bb94c415a00c3da5ffac24ddde2f047a5527590a9b8298c6e2a"
+    },
+    {
+      "source_file": "build_active_segmentation_dataset.py",
+      "published_file": "prepare_segmentation_data.py",
+      "source_sha256": "0e755b459112d5d1f530bfa79d4e19ad67ad72cd2576cc88662987fae9d9d75f",
+      "published_sha256": "8c1e67d9eb1b3d71baee93b94f06b8a5ae5b02040aa70e74d0f60356aff39d0e"
+    },
+    {
+      "source_file": "fix_material_labels.py",
+      "published_file": "taxonomy.py",
+      "source_sha256": "f3f3906e346ebbfc343c0c79045f184c729bc571b5a93e1da1a2cd6be143bc2e",
+      "published_sha256": "f8a551ce89367ff0fef1e3ee73d283bb0d5a19dfbe325648e664b939b68b7f5a"
+    },
+    {
+      "source_file": "edge_eval_lib.py",
+      "published_file": "annotation_utils.py",
+      "source_sha256": "916136543e55f221e196256ea1464b93e3ba268217e5c3f85dfa226ba46249d4",
+      "published_sha256": "b7eb779aef90c8d5da8daa36bf9431615f6fe317fca66d100b0526a29bf8996b"
+    },
+    {
+      "source_file": "w6_cross_matrix.py",
+      "published_file": "run_cross_dataset_matrix.py",
+      "source_sha256": "db046f3fd1d57f952d62dba6f5d10393b85f5c99233ab9774b8a6d937cd0311e",
+      "published_sha256": "c156e7b3e75238d1c3f5144dcbc3d29d9b93e5c3d36e4f97269f07aee6833d86"
+    },
+    {
+      "source_file": "w6_pretrain_ego_all.py",
+      "published_file": "pretrain_egowaste.py",
+      "source_sha256": "fbd05aac6a27ca66216f6bf54948e0459d973b398d5d7fd778e5ce12d848f73f",
+      "published_sha256": "6cbcdaac13a294e5dea98e058de60f95af4fd4e2af09ff5af9e331d8dd7237f6"
+    },
+    {
+      "source_file": "w6_finetune_zero.py",
+      "published_file": "finetune_zerowaste.py",
+      "source_sha256": "e4ff3959e50b85210bcf4f9e2e419d1caa3c1f243ee57a70b68466ee61101017",
+      "published_sha256": "b6cddf78266a2282e162624edab143552649ca10cf36ed0439382b1e40de2a33"
+    },
+    {
+      "source_file": "w6_finetune_ego.py",
+      "published_file": "finetune_egowaste.py",
+      "source_sha256": "2b9def03638a7ccdb9803c3570fba435eeeb8f8306d4326b976bbbfd3e45c6be",
+      "published_sha256": "1bfbdf9c1b6c3e3c0eab8e8645a0db4b9bd976c93bddf1a10ae5ceccff9a9f51"
+    },
+    {
+      "source_file": "w6_pretrain_ego.py",
+      "published_file": "pretrain_shared_materials.py",
+      "source_sha256": "5b5c1d45c543cbacfa5fe7a71c99ca0e8087cd036dacff6e7990a50a77ca85e4",
+      "published_sha256": "ff6f34c92fa1b189e3177e7c94257a7c1caaee08354935b97dcdadf2c789ae32"
+    }
+  ]
+}
