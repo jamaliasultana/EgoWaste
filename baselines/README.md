@@ -191,25 +191,3 @@ fine-tuning control above is a controlled comparison for a new run, not a claim
 that it reproduces that archived row. The matrix uses ResNet50; the fine-tuning
 scripts default to ResNet101. For each claimed pretraining benefit, match the
 control and transfer architecture, split, schedule, evaluated classes, and seeds.
-
-## Reproduction notes
-
-- The original classifier defaults to `--loss logit_adjust`, filters classes with
-  fewer than 10 samples, and removes classes absent from training. Saved runs
-  contained 50 fine classes, despite the paper's 56-class description.
-- The YOLO segmentation checkpoint is `yolov9c-seg.pt`; the paper labels the model
-  YOLO9-M. The name discrepancy has not been resolved by renaming these files.
-- Segmentation output `top1_mask_iou` is mean IoU, while `top1_hit@0.5` is a success
-  rate. Detection `top1_loc` ignores material correctness; `top1_loc_cls` requires it.
-  Keep these metrics distinct when preparing tables.
-- Table 5 defaults average the subset background/rigid_plastic/cardboard. The model
-  head still has five classes. Record `--eval_classes` explicitly in run provenance;
-  a five-class head does not imply a five-class reported average.
-- Several saved table entries do not match the current result summaries. This
-  package does not alter the numbers or certify that historical tables reproduce.
-- Cascade Mask R-CNN foreground mIoU imported from score-filtered predictions is
-  threshold-sensitive. Use matched thresholds before comparing that metric.
-
-Use `python <entry-point>.py --help` for the complete interface. Write generated
-artifacts under `outputs/`; it is ignored by Git. No full training was performed
-as part of preparing this code package.
